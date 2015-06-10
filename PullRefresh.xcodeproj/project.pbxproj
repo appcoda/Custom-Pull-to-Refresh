@@ -13,6 +13,7 @@
 		C07F5C7E1B22CF12001A33E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07F5C7D1B22CF12001A33E7 /* Images.xcassets */; };
 		C07F5C811B22CF12001A33E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C07F5C7F1B22CF12001A33E7 /* LaunchScreen.xib */; };
 		C07F5C8D1B22CF12001A33E7 /* PullRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07F5C8C1B22CF12001A33E7 /* PullRefreshTests.swift */; };
+		C07F5C971B22D05A001A33E7 /* RefreshContents.xib in Resources */ = {isa = PBXBuildFile; fileRef = C07F5C961B22D05A001A33E7 /* RefreshContents.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C07F5C861B22CF12001A33E7 /* PullRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PullRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07F5C8B1B22CF12001A33E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C07F5C8C1B22CF12001A33E7 /* PullRefreshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRefreshTests.swift; sourceTree = "<group>"; };
+		C07F5C961B22D05A001A33E7 /* RefreshContents.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefreshContents.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				C07F5C761B22CF12001A33E7 /* AppDelegate.swift */,
 				C07F5C781B22CF12001A33E7 /* ViewController.swift */,
 				C07F5C7A1B22CF12001A33E7 /* Main.storyboard */,
+				C07F5C961B22D05A001A33E7 /* RefreshContents.xib */,
 				C07F5C7D1B22CF12001A33E7 /* Images.xcassets */,
 				C07F5C7F1B22CF12001A33E7 /* LaunchScreen.xib */,
 				C07F5C741B22CF12001A33E7 /* Supporting Files */,
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C07F5C7C1B22CF12001A33E7 /* Main.storyboard in Resources */,
+				C07F5C971B22D05A001A33E7 /* RefreshContents.xib in Resources */,
 				C07F5C811B22CF12001A33E7 /* LaunchScreen.xib in Resources */,
 				C07F5C7E1B22CF12001A33E7 /* Images.xcassets in Resources */,
 			);
